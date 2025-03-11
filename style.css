@@ -275,3 +275,61 @@ h3 {
     top: -69px;
     z-index: 1
 }
+
+/* ******************* Craft Experience Style ******************** */
+
+.craft-experience {
+    padding: 100px 150px;
+    height: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.craft-exp-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 503px;
+}
+
+#craft-exp-btn {
+    padding: 24px 40px;
+    background: #020E35;
+    box-shadow: 0 20px 40px 5px #00000026;
+    width: 185px;
+    height: 71px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+div[class="craft-experience"] h2 {
+    width: 664px;
+}
+
+#craft-exp-p {
+    width: 481px;
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.craft-exp-image {
+    padding: 4px 0 4px 4px;
+    border-radius: 1000px;
+    width: 776px;
+    height: 662px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.red-underline-craft {
+    width: 380px;
+    height: 34px;
+    background: #FF5678;
+    position: relative;
+    top: -57px;
+    z-index: 1
+}
