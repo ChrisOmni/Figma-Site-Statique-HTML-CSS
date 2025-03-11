@@ -404,3 +404,91 @@ div[class="craft-experience"] h2 {
     z-index: 1
 }
 
+/* ******************* Things we enjoy Style ******************** */
+
+.descriptions {
+    margin: 0;
+    width: 421px;
+}
+
+.titles {
+    margin: 0;
+    width: 421px;
+}
+
+.numbers-title {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 400px;
+    color: #FFEEF6;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.white {
+    color: #fff
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 102px;
+    padding-top: 8px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+    display: flex;
+    justify-content: space-between;
+    width: 544px;
+}
+
+.four-six {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+}
+
+.second-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 592px;
+}
+
+.things-we-enjoy {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    align-items: center;
+}
+
+.background-pink {
+    width: 776px;
+    height: 662px;
+    border-radius: 1000px;
+    padding: 4px 0 4px 4px;
+    background: #FFEEF6;
+    position: absolute;
+    flex-shrink: 0;
+    z-index: -1;
+    top: 890px;
+    left: -210px;
+}
+
+.underlined-pink {
+    width: 400px;
+    height: 34px;
+    background: #FF5678;
+    position: relative;
+    top: -73px;
+    z-index: -1;
+}
