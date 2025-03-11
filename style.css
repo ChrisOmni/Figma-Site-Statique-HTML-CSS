@@ -1,0 +1,103 @@
+html {
+    background: #ffffff;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    margin: 0;
+}
+
+/* *******************Contact Us Style******************** */
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 150px 100px 150px;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 656px;
+    height: 904px;
+}
+
+.form-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 660px;
+    margin: 0;
+}
+
+.form h2 {
+    font-size: 54px;
+    line-height: 72px;
+    font-weight: 700;
+    width: 527px;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+.underline-red {
+    width: 304px;
+    height: 27px;
+    background: #FF5678;
+    position: relative;
+    top: -71px;
+    right: -198px;
+    z-index: 1
+
+}
+
+.name-card, .email-card{
+    height: 113px;
+}
+
+.message-card {
+    height: 243px;
+}
+
+.name, .email, .message{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+form input {
+    background-color: #FFEEF6;
+    border: solid 1px #020E35;
+    border-radius: 10px;
+    width: 654px;
+    height: 68px;
+    padding: 0;
+}
+
+#message-input {
+    height: 200px;
+}
+
+.form-button {
+    background-color: #020E35;
+    border: none;
+    padding: 24px 80px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    width: 205px;
+}
+
+.contact-us-image {
+    background: #FFEEF6;
+    padding: 4px 0 4px 4px;
+    border-radius: 1000px;
+    width: 776px;
+    height: 662px;
+    flex-shrink: 0;
+}
