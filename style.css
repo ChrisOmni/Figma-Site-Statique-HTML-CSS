@@ -34,7 +34,7 @@ body {
     margin: 0;
 }
 
-.form h2, .news-form h2 /* for newsletter style */{
+h2 /* for newsletter style */{
     font-size: 54px;
     line-height: 72px;
     font-weight: 700;
@@ -62,7 +62,7 @@ body {
     height: 243px;
 }
 
-.name, .email, .message{
+p {
     font-size: 18px;
     line-height: 23px;
     font-weight: 400;
@@ -91,6 +91,7 @@ form input {
     font-weight: 700;
     line-height: 23px;
     width: 205px;
+    box-shadow: 0 20px 40px 5px #00000026;
 }
 
 .placeholder-image {
@@ -102,7 +103,7 @@ form input {
     flex-shrink: 0;
 }
 
-/* ******************* Newsletter Style******************** */
+/* ******************* Newsletter Style ******************** */
 
 .newsletter {
     display: flex;
@@ -135,5 +136,142 @@ form input {
     position: relative;
     top: -67px;
     right: -144px;
+    z-index: 1
+}
+
+/* ******************* Team Style ******************** */
+
+.team {
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 1285px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    column-gap: 19px;
+    row-gap: 51px;
+    height: 1109px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 165px;
+    border-radius: 50px;
+    border: solid 1px #B8B8B8;
+    width: 187px;
+    height: 375px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 36px;
+    width: 227px;
+    font-weight: 700;
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-member {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: #FFEEF6;
+}
+
+.team h2 {
+    width: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-name-mark {
+    width: 121px;
+}
+
+.member-name-davi {
+    width: 136px;
+}
+
+.member-name-john {
+    width: 145px;
+}
+
+.member-name-alice {
+    width: 140px;
+}
+
+.member-name-jhang {
+    width: 135px;
+}
+
+.member-info-mark {
+    width: 214px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-info-davi {
+    width: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-info-john {
+    width: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-info-alice {
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member-info-jhang {
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Mark {
+    height: 395px;
+    width: 207px;
+    box-shadow: 0 20px 40px 5px #00000026;
+}
+
+.Samantha {
+    align-self: center;
+}
+
+.Davi {
+    align-self: center;
+}
+
+.red-underline {
+    width: 408px;
+    height: 30px;
+    background: #FF5678;
+    position: relative;
+    top: -69px;
     z-index: 1
 }
