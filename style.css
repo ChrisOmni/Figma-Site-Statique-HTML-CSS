@@ -293,7 +293,7 @@ h3 {
     height: 503px;
 }
 
-#craft-exp-btn {
+.craft-exp-btn {
     padding: 24px 40px;
     background: #020E35;
     box-shadow: 0 20px 40px 5px #00000026;
@@ -333,3 +333,74 @@ div[class="craft-experience"] h2 {
     top: -57px;
     z-index: 1
 }
+
+/* ******************* Powered by Style ******************** */
+
+.powered {
+    display: flex;
+    padding: 100px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.powered-content-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.play-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 212px;
+    height: 68px;
+}
+
+.play-btn-input {
+    height: 68px;
+    width: 68px;
+}
+
+.play-button-text {
+    margin: 0;
+}
+
+.powered-content {
+    display: flex;
+    height: 435px;
+    width: 517px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.powered-content-text {
+    display: flex;
+    height: 304px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.powered-description {
+    width: 517px;
+    margin: 0;
+}
+
+.powered-image {
+    padding: 4px 0 4px 4px;
+    border-radius: 500px;
+    width: 588px;
+    height: 500px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.red-underline-powered {
+    width: 400px;
+    height: 30px;
+    background: #FF5678;
+    position: relative;
+    top: -207px;
+    z-index: 1
+}
+
