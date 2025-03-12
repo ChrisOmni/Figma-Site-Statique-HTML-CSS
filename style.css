@@ -766,3 +766,59 @@ span {
 .headline {
     height: 330px;
 }
+
+/* *******************  header Style ******************** */
+
+.header {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 20px 5px #00000014;
+    padding: 8px 150px;
+}
+
+.header-button {
+    padding: 24px 40px;
+    background: #020E35;
+    width: 185px;
+    height: 68px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.home {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    width: auto;
+}
+
+.underlined-header {
+    border-bottom: 4px solid #FF5678;
+    padding-bottom: 8px;
+}
+
+.menu-text {
+    display: flex;
+    justify-content: space-between;
+    width: 457px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 702px;
+}
+
+.logo-header {
+    width: 127.87px;
+    height: 41px;
+    object-fit: cover;
+}
+
