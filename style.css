@@ -480,7 +480,7 @@ div[class="craft-experience"] h2 {
     position: absolute;
     flex-shrink: 0;
     z-index: -1;
-    top: 890px; /* à replacer après hkasdkjhdsjkhasdhkjdjhksdakjhdsakhjdsahkjdsahkjdaskhjdsahjkdashjkdsahjksdajhkdsahjkadsjhkdashkjdsa */ 
+    top: 1990px;  
     left: -210px;
 }
 
@@ -678,7 +678,7 @@ div[class="craft-experience"] h2 {
     background: #FFEEF6;
     position: absolute;
     z-index: -1;
-    top: 9000px;
+    top: 10120px;
     left: -126px;
 }
 
@@ -692,7 +692,7 @@ div[class="craft-experience"] h2 {
 
 .container {
     position: absolute;
-    top: 9000px;
+    top: 10120px;
     left: 1420px;
     width: 500px;
     z-index: -1;
