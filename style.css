@@ -678,7 +678,7 @@ div[class="craft-experience"] h2 {
     background: #FFEEF6;
     position: absolute;
     z-index: -1;
-    top: 7000px;
+    top: 9000px;
     left: -126px;
 }
 
@@ -692,7 +692,7 @@ div[class="craft-experience"] h2 {
 
 .container {
     position: absolute;
-    top: 7000px;
+    top: 9000px;
     left: 1420px;
     width: 500px;
     z-index: -1;
@@ -935,4 +935,200 @@ span {
 
 .all-p {
     padding: 4px 0 0 4px;
+}
+
+/* *******************  testimonial Style ******************** */
+
+.testimonial {
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 1080px;
+    width: 1620px;
+    overflow: hidden;
+}
+
+.testimonial-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 369px;
+    height: 128px;
+}
+
+.testimonial-text {
+    margin: 0;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.testimonial-title {
+    font-size: 54px;
+    line-height: 72px;
+    font-weight: 700;
+    width: 330px;
+}
+
+.testimonial-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 1620px;
+}
+
+.arrow {
+    width: 80px;
+    height: 80px;
+}
+
+.second-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 150px;
+    border: solid 1px #949494;
+    width: 334px;
+    height: 435px;
+    justify-self: center;
+    align-self: center;
+}
+
+.first-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 150px;
+    border: solid 1px #949494;
+    width: 334px;
+    height: 435px;
+    justify-self: center;
+    align-self: center;
+}
+
+.third-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 435px;
+    width: 380px;
+}
+
+.fake-third-testimonial {
+    border-radius: 150px;
+    width: 380px;
+    border: solid 1px #949494;
+    height: 552px;
+    display: flex;
+    padding: 60px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 150px;
+    border: solid 1px #949494;
+    width: 334px;
+    height: 435px;
+    justify-self: center;
+    align-self: center;
+}
+
+.fifth-testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    border-radius: 150px;
+    border: solid 1px #949494;
+    width: 334px;
+    height: 435px;
+    justify-self: center;
+    align-self: center;
+}
+
+.stars {
+    width: 28px;
+    height: 27px;
+    filter: invert(71%) sepia(98%) saturate(764%) hue-rotate(348deg) brightness(99%) contrast(108%);
+}
+
+.stars-div {
+    width: 206px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-content, .testimonial-name, .testimonial-class {
+    margin: 0;
+}
+
+.testimonial-content {
+    text-align: center;
+}
+
+#id3 {
+    width: 380px;
+    height: 92px;
+}
+
+.testimonial-name {
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    width: 135px;
+}
+
+.testimonial-class {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 131px;
+}
+
+.testimonial-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    background: #FFEEF6;
+}
+
+.first-testimonial-div {
+    display: flex;
+    flex-direction: column;
+    width: 253px;
+    height: 340px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-testimonial-div {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    height: 49px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-grid {
+    width: 2236px;
+    height: 672px;
+    display: grid;
+    grid-template: 672px / 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 32px;
 }
