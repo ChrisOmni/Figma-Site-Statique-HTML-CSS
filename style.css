@@ -678,7 +678,7 @@ div[class="craft-experience"] h2 {
     background: #FFEEF6;
     position: absolute;
     z-index: -1;
-    top: 5800px;
+    top: 7000px;
     left: -126px;
 }
 
@@ -692,7 +692,7 @@ div[class="craft-experience"] h2 {
 
 .container {
     position: absolute;
-    top: 5800px;
+    top: 7000px;
     left: 1420px;
     width: 500px;
     z-index: -1;
@@ -822,3 +822,117 @@ span {
     object-fit: cover;
 }
 
+/* *******************  previous work Style ******************** */
+
+.previous-work {
+    height: 1743px;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previous-work-title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 72px;
+    width: 743px;
+}
+
+.previous-work-p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.previous-work-button {
+    padding: 24px 60px;
+    background: #020E35;
+    box-shadow: 0 20px 40px 5px #00000026;
+    width: 203px;
+    height: 71px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.previous-work-index {
+    width: 536px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.previous-work-grid {
+    display: grid;
+    width: 1620px;
+    height: 1376px;
+    column-gap: 32px;
+    row-gap: 32px;
+    grid-template:  396px 244px 121px 519px / 1fr 1fr 1fr;
+    grid-template-areas: 
+        "a b c"
+        "a b d"
+        "e b d"
+        "e f f";
+}
+
+.a, .b, .c, .d, .e, .f {
+    background: #FFEEF6;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+.headline-previous-work{
+    height: 72px;
+}
+
+.red-highlight-previous-work {
+    width: 390px;
+    height: 30px;
+    background: #FF5678;
+    position: relative;
+    top: -33px;
+    right: -320px;
+    z-index: -1; 
+    margin: 0;
+    padding: 0;
+}
+
+.all-previous-work {
+    width: 56px;
+    height: 44px;
+    background: #FF5678;
+}
+
+.all-p {
+    padding: 4px 0 0 4px;
+}
