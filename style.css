@@ -733,10 +733,9 @@ div[class="craft-experience"] h2 {
 }
 
 .img-container {
-    padding: 4px 0 4px 4px;
     border-radius: 200px;
-    width: 588px;
-    height: 500px;
+    width: 592px;
+    height: 508px;
     flex-shrink: 0;
     overflow: hidden;
 }
