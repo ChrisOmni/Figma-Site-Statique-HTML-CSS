@@ -92,6 +92,7 @@ form input {
     line-height: 23px;
     width: 205px;
     box-shadow: 0 20px 40px 5px #00000026;
+    font-family: "Merriweather", serif;
 }
 
 .placeholder-image {
@@ -304,6 +305,7 @@ h3 {
     border: none;
     font-size: 18px;
     line-height: 23px;
+    font-family: "Merriweather", serif;
 }
 
 div[class="craft-experience"] h2 {
@@ -419,7 +421,7 @@ div[class="craft-experience"] h2 {
 .numbers-title {
     font-size: 64px;
     line-height: 72px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #FFEEF6;
     text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
     1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
@@ -485,7 +487,7 @@ div[class="craft-experience"] h2 {
 }
 
 .underlined-pink {
-    width: 400px;
+    width: 440px;
     height: 34px;
     background: #FF5678;
     position: relative;
@@ -726,12 +728,17 @@ div[class="craft-experience"] h2 {
 }
 
 .home-page-image {
+    object-fit: cover;
+    zoom: 50%;
+}
+
+.img-container {
     padding: 4px 0 4px 4px;
     border-radius: 200px;
     width: 588px;
     height: 500px;
     flex-shrink: 0;
-    object-fit: cover;
+    overflow: hidden;
 }
 
 span {
@@ -761,6 +768,7 @@ span {
     border: none;
     font-size: 18px;
     line-height: 23px;
+    font-family: "Merriweather", serif;
 }
 
 .headline {
@@ -788,6 +796,7 @@ span {
     border: none;
     font-size: 16px;
     line-height: 20px;
+    font-family: "Merriweather", serif;
 }
 
 .home {
@@ -796,11 +805,12 @@ span {
     line-height: 16px;
     margin: 0;
     width: auto;
+    border-bottom: 4px solid #FFF;
+    padding-bottom: 8px;
 }
 
-.underlined-header {
+.home:hover {
     border-bottom: 4px solid #FF5678;
-    padding-bottom: 8px;
 }
 
 .menu-text {
@@ -859,6 +869,7 @@ span {
     border: none;
     font-size: 18px;
     line-height: 23px;
+    font-family: "Merriweather", serif;
 }
 
 .previous-work-index {
