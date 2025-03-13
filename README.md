@@ -10,6 +10,6 @@ this is a web page for the institution Zebb, following the design called "Dev - 
 
 ## how to view it 
 
-if you want to view the web page simply *[click here](file:///home/chris/Documents/pre-app/exercises/Figma-Site-Statique-HTML-CSS/index.html)*.
+if you want to view the web page simply copy the path off *index.html*, and paste it in a *web-browser*.
 
 this sould send you directly to a web-browser to view the web-page.
