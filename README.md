@@ -1,6 +1,6 @@
 # Web Page Zebb
 
-this is a web page for the institution Zebb, following the design called "Dev - Site Statique" on the Figma. 
+this is a web page for the institution Zebb, following the design called "Dev - Site Statique" on the site called Figma. 
 
 ## Content 
 
